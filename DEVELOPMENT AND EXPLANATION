@@ -1,0 +1,48 @@
+AI_Student_Information_Management_System/
+│
+├── app.py
+├── requirements.txt
+├── README.md
+│
+├── ai/
+│   ├── __init__.py
+│   └── performance_analyzer.py
+│
+├── data/
+│   └── students.json
+│
+├── templates/
+│   ├── base.html
+│   ├── login.html
+│   ├── dashboard.html
+│   ├── students.html
+│   └── student_form.html
+│
+├── static/
+│   ├── css/
+│   │   └── style.css
+│   └── js/
+│       └── dashboard.js
+│
+└── docs/
+    ├── PROJECT_ARCHITECTURE.md
+    ├── TECHNICAL_ARCHITECTURE.md
+    ├── ER_DIAGRAM.md
+    ├── USER_FLOW.md
+    ├── ROLES_AND_RESPONSIBILITIES.md
+    └── MVC_PATTERN.md
+💻 Technology
+Frontend: HTML, CSS, JavaScript, Chart.js
+Backend: Python Flask
+Database: JSON
+AI module: Student performance analysis
+Architecture: MVC-inspired
+API: REST API
+🔐 Demo Login
+Username: admin
+Password: admin123
+▶️ Run செய்வது
+pip install -r requirements.txt
+python app.py
+பிறகு browser-ல்:
+http://127.0.0.1:5000
